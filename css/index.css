@@ -3,13 +3,23 @@ body{
   color: #181818;
 }
 .is-open-menu{
-bgi
+border: 0;
+background: transparent;
+padding: 0;
 }
 
 .is-open-menu .ir{
 display: block;
-width: 100px;
-height: 100px;
-background-color: #ffff00;
-background-image: url(./../image/);
+width: 26px;
+height: 22px;
+background-color: #ffffff;
+background-image: url(../images/navigation-button.gif);
+background-repeat: no-repeat;
+background-position: 50% 50%;
+padding: 10px;
+cursor: pointer;
+}
+
+.is-open-menu.ir:hover{
+  background-color: #999999;
 }
